@@ -18,6 +18,7 @@ The code enables changing the transport coefficients so one can test this for va
 ![Advection operator spectra](Fig_advection_eigs_scaled_RK_stability_n20.png)
 
 Also here is the solution of a Non-Stationary Heat Diffusion in One-Dimensional Rod, using the 'heat_eq_bernstein.py'.
+
 ![Temperature in a rod](Heat_function_Bernstein-4.png)
 
 For any questions contact me (email is given in the paper or at the github home page).
