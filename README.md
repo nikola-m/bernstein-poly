@@ -11,3 +11,8 @@ Additional feature is the use od Chebyshev-Gauss-Lobatto (CGL) collocation nodes
 Libraries used are: numpy, scipy and matplotlib.
 
 For any questions contact me (email is given in the paper or at the github home page).
+
+Example: The rk_stability.py plots scaled eigenvalues of the advection operator inside the stability region of RKSSP(5,4) method demonstrating striking feature of the present method, that the eigenvalues match those of Chebyshev spectral method.
+The code enables changing the transport coefficients so one can test this for vaious convection-diffusion operators not ony pure advection.
+
+![Advection operator spectra](Fig_advection_eigs_scaled_RK_stability_n20.png)
